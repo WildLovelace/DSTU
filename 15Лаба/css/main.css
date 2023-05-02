@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* margin: 0 auto;
+    justify-content: center;
+    text-align: center; */
+    font-size: 16px;
+    /* background-color: black; */
+    background-size: cover;
+}
+
+.conteiner {
+    padding: 0 20px;
+    background-color: white;
+}
+
+#map {
+    position: absolute;
+    /* margin: 300px; */
+    left: 20%;
+    width: 80%;
+    height: 100%;
+    z-index: 1;
+    /* border-radius: 15px; */
+}
+
+.map_win {
+    position: absolute;
+    margin: 300px;
+    right: -50px;
+    border-radius: 15px;
+    background-color: #424242;
+    border-color: white;
+    width: 300px;
+    height: 500px;
+}
+
+.menu {
+    width: 424px;
+    position: relative;
+}
+
+.menu_header {
+    width: 424px;
+    height: 170px;
+    background-image: url(https://d-assets.2gis.ru/headerPhotos/rostov.jpg);
+    background-size: contain;
+}
+
+.search {
+    margin-top: 35px;
+    margin-left: 15px;
+    width: 345px;
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 15px;
+}
+
+.btn_container {
+    margin-left: 20px;
+    width: 380px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn {
+    margin: 20px 10px;
+}
+
+.btn_container button {
+    cursor: pointer;
+    width: 64px;
+    height: 64px;
+    background-color: #fff;
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 30px;
+}
+
+button:hover {
+    background-color: rgb(240, 240, 240);
+}
+
+.btn_container h5 {
+    text-align: center;
+}
+
+.btn_title_study {
+    margin: 0 !important;
+}
+
+.searchme {
+    margin: 25px 30px;
+}
+
+#btn_i{
+    margin-left: 30px;
+    cursor: pointer;
+    width: 128px;
+    height: 64px;
+    background-color: #fff;
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 30px;
+}
+
+#btn_r {
+    margin-left: 30px;
+    padding-top: 20px;
+    cursor: pointer;
+    width: 128px;
+    height: 64px;
+    background-color: #fff;
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 30px;
+}
+
+#btn_i:hover{
+    background-color: rgb(240, 240, 240);
+}
+
+#btn_r:hover {
+    background-color: rgb(240, 240, 240);
+}
+
+.header_btns{
+    width: 500px;
+}
+
+.header_btns_container{
+    display: flex;
+    position: absolute;
+    right: 2%;
+    top: 2.6%;
+    z-index: 2;
+}
+
+.header_icons{
+    width: 200px;
+    height: 40px;
+    background-color: #ffffff;
+    margin-right: 15px;
+    border-radius: 5px;
+    box-shadow: 0 3px 3px 0 rgba(38, 38, 38, 0.5);
+}
+
+.header_icons img{cursor: pointer;
+    width: 40px;
+    height: 35px;
+    padding-left: 5px;
+    padding-top: 3px;
+}
+
+.enter{
+    margin-right: 15px;
+    width: 95px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 3px 3px 0 rgba(38, 38, 38, 0.5);
+}
+
+.enter_btn{
+    display: flex;
+    text-decoration: none;
+}
+
+.enter_title{
+    color: #111;
+    padding-left: 10px;
+    padding-top: 12px;
+}
+
+.enter_img{
+    padding-top: 4px;
+    padding-left: 3px;
+    height: 32px;
+}
+
+.congestion{
+    cursor: pointer;
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: #fff;
+    border: 4px solid rgb(41, 148, 0);
+}
+
+.congestion_btn{
+    font-weight: bolder;
+    text-decoration: none;
+    color: #111;
+    font-size: 20px;
+}
+
+.congestion_num{
+    padding-top: 7px;
+    padding-left: 15px;
+}
+
+.other{
+    width: 50px;
+    height: 50px;
+}
+
+.other img{
+    cursor: pointer;
+    box-shadow: 0 3px 3px 0 rgba(38, 38, 38, 0.5);
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+}
